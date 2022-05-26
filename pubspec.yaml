@@ -63,6 +63,21 @@ flutter:
   # the material Icons class.
   uses-material-design: true
 
+  assets:
+    - assets/
+    - assets/fonts/
+    - assets/services/
+    - assets/projects/
+
+  fonts:
+    - family: Agustina
+      fonts:
+        - asset: assets/fonts/agustina.otf
+    #       - asset: fonts/Schyler-Italic.ttf
+    #         style: italic
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/montserrat.ttf
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
